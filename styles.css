@@ -1,0 +1,148 @@
+body{
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+  margin: 0;
+}
+
+.google{
+  display: inline;
+  margin-top: auto;
+  width: 20rem;
+  margin-bottom: 20px;
+  /* height: 5.75rem; */
+
+}
+
+.s-bar{
+  display: inline-block;
+  border: 1px solid #dfe1e5;
+  border-radius: 1.5rem;
+  width: auto;
+  width: 40rem;
+}
+
+input{
+  display: inline-block;
+  width: 36.5rem;
+  height: 2.75rem;
+  border: none;
+  border-width: 1px;
+}
+
+input :focus-visible{
+  outline-offset: 0px !important;
+outline: none !important;
+}
+
+.buttons{
+  display: block;
+  padding: 1.813rem;
+}
+
+button{
+  height: 36px;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin: 0 0.25rem 0 0.25rem;
+  background-color: white;
+  border: 1px solid #f8f9fa;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+/* button :hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+} */
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: arial,sans-serif;
+}
+
+nav{
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+nav a{
+  text-decoration: none;
+  margin-right: 0.9735rem;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav button{
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+}
+
+.offered p{
+  display: inline-block;
+}
+
+.offered a{
+  color: blue;
+  margin-left: 5px;
+}
+
+.offered a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #f2f2f2;
+  color: #70757a;
+  padding-top: 15px;
+  margin-top: 90px;
+  padding-bottom: 15px;
+}
+
+.country{
+  text-align: left;
+  margin-left: 30px;
+}
+
+hr{
+  color: #70757a;
+  margin: 15px 0px;
+}
+
+.sub-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  color: #70757a;
+}
+
+.sub-footer a{
+  color: #70757a;
+}
+
+.sub-footer a:hover{
+  text-decoration: underline;
+}
+
+.bar-1 a{
+  margin-right: 20px;
+}
+
+
+
+.bar-2 a{
+  margin-left: 20px;
+}
